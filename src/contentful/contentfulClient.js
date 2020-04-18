@@ -1,4 +1,4 @@
-import config from "./config"
+import config from "../config"
 let contentful = require("contentful");
 const client = contentful.createClient(config.contentful);
 
